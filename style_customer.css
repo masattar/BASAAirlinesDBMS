@@ -1,0 +1,865 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	background: #F5F5F5;
+        font-family: "Verdana"; 
+         background-image: url("airplane3.png");   // http://cs619226.vk.me/v619226070/7195/qOLK1fcEi08.jpg
+          background-position: center;
+          background-size: 100%;
+          background-position-y: 0px;
+          background-attachment: fixed;
+}
+
+.header {
+	background: #ffffff;
+	width: 100%;
+	top:0;
+	height: 120px;
+	left: 0;
+	position: fixed;
+	z-index: 99999;
+}
+
+.menu {
+	background: #4682B4;
+	width: 100%;
+	top:115px;
+	height: 48px;
+	left: 0;
+	position: fixed;
+}
+.name {
+        padding-top: 10px;
+	float: left;
+	font-family: "Verdana";
+	font-size:20px;
+        color: #4682B4;
+}
+.login {
+    padding-top: 35px;
+    float:right;
+}
+.menu li {
+	list-style:none;
+	float: left;
+	margin-right: 40px;
+	font-family: "Verdana";
+	font-size:20px;
+		
+        color: white;
+	
+	
+}
+.menu li:hover {
+	color: white;	
+        font-weight:bold;
+}
+.logo img {
+    padding-top: 30px;
+    float:left; 
+    height:60px;
+    padding-right:5px;
+}
+.container {
+	width: 960px;
+	margin: auto;
+}
+.login a {
+    color:inherit;
+    text-decoration: none; 
+}
+.login a:hover {
+   
+    text-decoration: underline; 
+    color:inherit;
+}
+.menu a {
+     text-decoration: none;
+     color:inherit;
+}
+.content {
+    padding-top:200px;
+}
+.name img{
+    height:60px;
+}
+.logintype1 {
+    height:200px;
+    width:400px;
+    background-color: white;
+    float:left;
+    margin-left: 50px;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+}
+.logins a{
+    color: inherit;
+    text-decoration: none;
+}
+.logins a:hover .logintype1 {
+    background-color: #4682B4;
+    color:white;
+}
+
+.logins a:hover .logintype2 {
+    background-color: #4682B4;
+    color:white;
+}
+.logintype2 {
+    height:200px;
+    width:400px;
+    background-color: white;
+    float:right;
+    margin-right: 50px;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+}
+.currentLink {
+    font-weight: bold;
+}
+
+/* My style sheet code */
+
+
+/******************** customerlogin.php***************************/
+
+/*Left and right divisions on page */
+.left {
+	position: relative;
+	float: left;
+	margin-top: 50px;
+	width: 50%;
+	height: 500px;
+	background-color: inherit;
+	margin-bottom: 10px;
+}
+
+.right {
+	position: relative;
+	float: right;
+	margin-top: 50px;
+	width: 50%;
+	height: 500px;
+	background-color: inherit;
+	margin-bottom: 10px;
+}
+
+
+
+
+/* My Sign-In Code */
+.signInOrUp{
+    height: 565px;
+    width: 400px;
+    border: 1px solid #4682B4;
+    border-radius: 20px;
+    background-color: white;
+    display: block;
+    margin: auto;
+    
+    padding: 10px;
+    padding-bottom: 20px;
+    
+
+}
+
+#userpass{
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* a centered bolded text*/
+#boldcenter{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+#inputblock{
+    margin-top: -10px;
+    height:20px;
+    width: 300px;
+    font-size: 15px;
+}
+
+.signButton{
+    /*
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+    font-family: Verdana;
+    background-color:white; //#4682B4 
+    border: 4px solid #4682B4;
+    border-radius: 8px;*/
+    width:100px;
+    padding: 5px;
+    margin-top:-5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    color: white;
+    font-family: Verdana;
+    background-color:#4682B4;
+    border-radius: 8px;
+
+}
+
+.signButton:hover {/*
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    font-family: Verdana;
+    background-color:#4682B4;
+    border: 4px solid #4682B4;
+    border-radius: 8px;*/
+    color: #4682B4;
+    background-color:white;
+}
+
+
+#signInContents{
+    padding: 20px;
+    padding-top: 50px;
+    /*border: 2px solid red;*/
+
+}
+#signUpContents{
+    padding: 20px;
+    padding-top: 0px;
+    padding-top: 0px;
+    /*border: 2px solid red;*/
+    margin-bottom: 0px;
+}
+
+/******************** Code for customerAccountInfo.php***************************/
+
+.accProp{
+    list-style:none;
+    margin-bottom: 50px;
+    font-family: Arial;
+    /*font-size:22px;*/
+    /*font-weight: bold;*/
+    color: black;
+}
+
+#signOutLink {
+  background-color: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  color: black;
+  cursor: pointer;
+  float: right;
+}
+
+#signOutLink:hover{
+    text-decoration: underline;
+}
+
+.cusAttrRight{
+    display: inline-block;
+    padding: 0px;
+    margin-left: 10px;
+    /*border: 1px solid red;*/
+    font-size: 22px;
+}
+.cusAttrLeft{
+    display: inline-block;
+    padding: 0px;
+    margin-right: 10px;
+    /*border: 1px solid red;*/
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+.centre{
+    text-align: center;
+}
+
+.accountdisplay{
+    height: 370px;
+    width: 50%;
+    border: 10px solid #4682B4;
+    border-radius: 20px;
+    background-color: white;
+    display: block;
+    margin: auto;
+    
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/******************** Code for customerCurrentTickets.php***************************/
+
+
+#inputblockTicketID{
+    margin-top: -10px;
+    height:25px;
+    width: 200px;
+    font-size: 15px;
+    /*border: 1px solid red;*/
+}
+
+#ticketFieldID{
+    text-align: left;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.removeButton{
+   /* padding: 5px;
+    font-size: 15px;
+    color: black;
+    font-family: Verdana;
+    background-color:white; //#4682B4 
+    border: 4px solid red;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-top: 60px;*/
+   width:100px;
+    padding: 5px;
+    margin-top:-5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    color: white;
+    font-family: Verdana;
+    background-color:#4682B4;
+    border-radius: 8px;
+}
+
+.removeButton:hover {/*
+    padding: 5px;
+    font-size: 15px;
+    color: white;
+    font-family: Verdana;
+    background-color:#4682B4;
+    border: 4px solid red;
+    border-radius: 8px;*/
+    color: #4682B4;
+    background-color:white;
+    
+}
+
+.ticketdisplay{
+    height: 500px;
+    width: 100%;
+    border: 10px solid #4682B4;
+    border-radius: 20px;
+    background-color: white;
+    display: block;
+    margin: auto;
+    
+    overflow-y: scroll;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+
+.indvticket{
+    height: 220px;
+    width: 90%;
+    border: 1px dashed black;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    margin: auto;
+    margin-left: 20px;
+    margin-top: 50px;
+    color: darkblue;
+    
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+#hidedot{
+    list-style:none;
+}
+
+#tixSection{
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+#tixSectionHead{
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+#tixAttr{
+    /*border: 1px solid red;*/
+    margin: 0px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#tixAttrHead{
+    /*border: 1px solid red;*/
+    margin: 0px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#tixEmpty{
+    color: red;
+    text-align: center;
+    margin-top: 200px;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+/********************** Code for customerBookFlight.php***************************/
+.bookdisplay{
+    height: 150px;
+    width: 900px;
+    border: 10px solid #4682B4;
+    border-radius: 20px;
+    background-color: white;
+    display: block;
+    margin: auto;
+    
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.bookdisplay2{
+    height: 140px;
+    width: 50%;
+    border: 10px solid #4682B4;
+    border-radius: 20px;
+    background-color: white;
+    display: block;
+    margin: auto;
+    
+    margin-top: 0px;
+    margin-bottom: 20px;
+    
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+#bookingContents{
+    padding: 20px;
+    padding-top: 50px;
+    /*border: 2px solid red;*/
+    height: 50px;
+
+}
+#bookingContents2{
+    padding: 20px;
+    padding-top: 30px;
+    /*border: 2px solid red;*/
+
+}
+
+#inputCounter{
+    margin-top: -10px;
+    height:20px;
+    width: 40px;
+    font-size: 15px;
+}
+
+#inputCounterNum{
+    margin-top: -10px;
+    margin-right: 30px;
+    height:20px;
+    width: 40px;
+    font-size: 15px;
+}
+
+#ticketFields{
+    text-align: left;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#inputblockDate{
+    margin-top: -10px;
+    height: 25px;
+    width: 150px;
+    font-size: 15px;
+}
+
+#inputblockTicket{
+    margin-top: -10px;
+    height:25px;
+    width: 200px;
+    font-size: 15px;
+    /*border: 1px solid red;*/
+}
+
+#inputblockTicketFrom{
+    margin-top: -10px;
+    height:25px;
+    width: 200px;
+    font-size: 15px;
+    /*border: 1px solid red;*/
+    margin-right: 30px;
+}
+
+#inputblockList{
+    display: inline-block;
+    margin-top: -10px;
+    height:25px;
+    width: 200px;
+    font-size: 15px;
+}
+
+.checkButton{
+    /*padding: 5px;
+    font-size: 11px;
+    color: black;
+    font-family: Verdana;
+    background-color:white; //#4682B4 
+    border: 4px solid red;
+    border-radius: 8px;
+    margin-left: 30px;*/
+    width:170px;
+    padding: 5px;
+    margin-top:-5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    color: #4682B4;
+    font-family: Verdana;
+    background-color:white;
+    border-radius: 8px;
+    border:1px solid #4682B4;
+
+}
+
+.checkButton:hover {
+   /* padding: 5px;
+    font-size: 11px;
+    color: white;
+    font-family: Verdana;
+    background-color:#4682B4;
+    border: 4px solid red;
+    border-radius: 8px;*/
+   background-color: #4682B4;
+    color:white;
+   
+}
+
+/*********************************TABLE STUFF******************************/
+.employeeList {
+    height: 150px;
+    width: 100%;
+    
+    padding-top: 30px;
+   
+    background-color: #F5F5F5;
+    display: block;
+    margin: auto;
+    
+    overflow-y: scroll;
+}
+
+.tableHeader {
+    width: 100%;
+    height:20px;
+    float: center; 
+    background-color: #D1D0CE;
+    font-weight:bold;
+    padding-bottom: 3px;
+}
+.column{
+    list-style:none;
+    float: left;
+    width: 20%;
+    text-align:left;
+}
+
+a {
+    color: inherit;
+}
+
+.tuplecolumn{
+    list-style:none;
+    float: left;
+    width: 20%;
+    text-align: left;
+}
+
+.headers{
+    margin-left: -40px;
+}
+
+.smallEmployeeList {
+     height: 100px;
+    width: 70%;
+   
+    
+    background-color: white;
+    display: block;
+    margin: auto;
+    
+    overflow-y: scroll;
+    
+}
+
+.columnFN{
+    list-style:none;
+    float: left;
+    width: 8%;
+    text-align:left;
+    border: 1px solid inherit;
+    margin-left: 20px;
+}
+.columnDL{
+    list-style:none;
+    float: left;
+    width: 18.50%;
+    text-align:left;
+    border: 1px solid inherit;
+    margin-left: 20px;
+}
+.columnDT{
+    list-style:none;
+    float: left;
+    width: 15%;
+    text-align:center;
+    border: 1px solid inherit;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+.columnAL{
+    list-style:none;
+    float: left;
+    width: 15%;
+    text-align:center;
+    border: 1px solid inherit;
+    margin-left: 20px;
+}
+.columnAT{
+    list-style:none;
+    float: left;
+    width: 15%;
+    text-align:center;
+    border: 1px solid inherit;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+.tuplecolumnFN{
+    list-style:none;
+    float: left;
+    width: 2%;
+    text-align:center;
+    margin-left: 30px;
+    border: 1px solid inherit;
+}
+
+.tuplecolumnDL{
+    list-style:none;
+    float: left;
+    width: 15%;
+    text-align:center;
+    margin-left: 50px;
+    border: 1px solid inherit;
+}
+
+.tuplecolumnDT{
+    list-style:none;
+    float: left;
+    width: 13%;
+    text-align:center;
+    margin-left: 90px;border: 1px solid inherit;
+}
+
+.tuplecolumnAL{
+    list-style:none;
+    float: left;
+    width: 13%;
+    text-align:center;
+    margin-left: 90px;
+    border: 1px solid inherit;
+}
+
+.tuplecolumnAT{
+    list-style:none;
+    float: left;
+    width: 13%;
+    text-align:center;
+    margin-left: 70px;
+    margin-right: 30px;
+    margin-bottom: 20px;border: 1px solid inherit;
+    padding-right:46px;
+}
+
+.line{
+    width: 100%;
+    border: 1px solid black;
+}
+
+#flightsEmpty{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    font-family: Arial;
+    margin-top: 50px;
+}
+
+.submitButton{
+   /* padding: 10px;
+    font-size: 13px;
+    color: black;
+    font-family: Verdana;
+    background-color:white; //#4682B4 
+    border: 4px solid #4682B4;
+    border-radius: 8px;
+    margin-left: 20px;*/
+    width:100px;
+    padding: 5px;
+    margin-top:-5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    color: white;
+    font-family: Verdana;
+    background-color:#4682B4;
+    border-radius: 8px;
+
+}
+
+.submitButton:hover {
+   /* padding: 10px;
+    font-size: 13px;
+    color: white;
+    font-family: Verdana;
+    background-color:#4682B4;
+    border: 4px solid #4682B4;
+    border-radius: 8px;
+    margin-left: 20px;*/
+   color: #4682B4;
+    background-color:white;
+}
+
+
+.login ul {
+    list-style: none;
+}
+.login li {
+    float:left;
+    padding-left:5px;
+}
+
+
+
+/************************edits****************/
+
+.box {background:white;
+          width:100%;
+          padding-left:20px;
+          padding-top:10px;
+          margin-top:35px;
+          margin-bottom:17px;
+          padding-right:20px;
+          padding-bottom:20px;
+}
+
+
+.box5 {background:white;
+          width:100%;
+          
+          padding-left:20px;
+          padding-top:10px;
+          margin-top:35px;
+          margin-bottom:17px;
+          padding-right:20px;
+          padding-bottom:20px;
+}
+
+
+.button{
+    float:right;
+    width:80px;
+    padding: 5px;
+    margin-top:-5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    color: white;
+    font-family: Verdana;
+    background-color:#4682B4;
+    border-radius: 8px;
+    text-align: center;
+    margin-right:30px;
+    margin-bottom:100px;
+
+}
+
+.button:hover {
+    color: #4682B4;
+    background-color:white;
+    border: 1px solid #4682B4;
+}
+
+.button a{
+    color:inherit;
+    color:inherit;
+    text-decoration: none; 
+    
+}
+.button a:hover {
+    color:inherit;
+    text-decoration: none; 
+}
+
+
+
+.backbutton{
+    float:left;
+    width:80px;
+    height:20px;
+    padding: 5px;
+    margin-top:-5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    color: white;
+    font-family: Verdana;
+    background-color:#4682B4;
+    border-radius: 8px;
+    text-align: center;
+    margin-right:30px;
+
+}
+
+.backbutton:hover {
+    color: #4682B4;
+    background-color:white;
+    border: 1px solid #4682B4;
+}
+
+.backbutton a{
+    color:inherit;
+    color:inherit;
+    text-decoration: none; 
+    
+}
+.backbutton a:hover {
+    color:inherit;
+    text-decoration: none; 
+}

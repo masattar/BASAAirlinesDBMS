@@ -1,0 +1,277 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	background: #F5F5F5;
+        font-family: "Verdana"; 
+        background-image: url("airplane4.jpg");   // http://www.holidayguru.ie/wp-content/uploads/2014/05/Fotolia_14466058_Subscription_Monthly_XL.jpg
+          background-position: center;
+          background-size: 100%;
+          background-position-y: -150px;
+          background-attachment: fixed;
+}
+
+.header {
+	background: #ffffff;
+	width: 100%;
+	top:0;
+	height: 120px;
+	left: 0;
+	position: fixed;
+	z-index: 99999;
+}
+
+.menu {
+	background: #4682B4;
+	width: 100%;
+	top:115px;
+	height: 48px;
+	left: 0;
+	position: fixed;
+}
+.name {
+        padding-top: 10px;
+	float: left;
+	font-family: "Verdana";
+	font-size:20px;
+        color: #4682B4;
+}
+.login {
+    padding-top: 35px;
+    float:right;
+}
+.menu li {
+	list-style:none;
+	float: left;
+	margin-right: 40px;
+	font-family: "Verdana";
+	font-size:20px;
+		
+        color: white;
+	
+	
+}
+.menu li:hover {
+	color: white;	
+        font-weight:bold;
+}
+.logo img {
+    padding-top: 30px;
+    float:left; 
+    height:60px;
+    padding-right:5px;
+}
+.container {
+	width: 960px;
+	margin: auto;
+}
+.login a {
+    color:inherit;
+    text-decoration: none; 
+}
+.login a:hover {
+   
+    text-decoration: underline; 
+    color:inherit;
+}
+.menu a {
+     text-decoration: none;
+     color:inherit;
+}
+.content {
+    padding-top:200px;
+}
+.name img{
+    height:60px;
+}
+.logintype1 {
+    height:200px;
+    width:400px;
+    background-color: white;
+    float:left;
+    margin-left: 50px;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+}
+.logins a{
+    color: inherit;
+    text-decoration: none;
+}
+.logins a:hover .logintype1 {
+    background-color: #4682B4;
+    color:white;
+}
+
+.logins a:hover .logintype2 {
+    background-color: #4682B4;
+    color:white;
+}
+.logintype2 {
+    height:200px;
+    width:400px;
+    background-color: white;
+    float:right;
+    margin-right: 50px;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+}
+.currentLink {
+    font-weight: bold;
+}
+
+.employeeList {
+    height: 150px;
+    width: 71%;
+   
+    
+    background-color: #F5F5F5;
+    display: block;
+    margin: auto;
+    
+    overflow-y: scroll;
+}
+
+.tableHeader {
+    width: 71%;
+    height:20px;
+    float: center; 
+    background-color: #D1D0CE;
+    font-weight:bold;
+    padding-bottom: 3px;
+}
+.column{
+    list-style:none;
+    float: left;
+    width: 20%;
+    text-align:left;
+}
+
+a {
+    color: inherit;
+}
+
+.tuplecolumn{
+    list-style:none;
+    float: left;
+    width: 19%;
+    text-align: left;
+    margin-left:6px;
+    
+}
+
+.headers{
+    margin-left: -40px;
+}
+
+.smallEmployeeList {
+     height: 100px;
+    width: 71%;
+   
+    
+    background-color: #F5F5F5;
+    display: block;
+    margin: auto;
+    
+    overflow-y: scroll;
+    
+}
+.searchInput1 {
+    float:left;
+    
+}
+.searchInput2 {
+    float:right;
+}
+
+.defaultText {
+    color:gray;
+    text-align: center;
+    font-style: italic;
+}
+
+.errorText {
+    color:red;
+    text-align: center;
+    font-style: italic;
+}
+
+input {
+    margin-left: 2px;
+    margin-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+
+.label {
+    padding-bottom:10px;
+}
+.employeeAttributes {
+    list-style: none;
+   
+}
+
+.employeeAttributes li {
+    float:left;
+    width:220px;
+    padding-right:10px;
+    list-style:none;
+}
+
+h2 {
+    font-size:16px;
+}
+.button{
+    width:100px;
+    padding: 5px;
+    margin-top:-5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    color: white;
+    font-family: Verdana;
+    background-color:#4682B4;
+    border-radius: 8px;
+
+}
+
+.button:hover {
+    color: #4682B4;
+    background-color:white;
+}
+#inputblock{
+    margin-top: -10px;
+    height:20px;
+    width: 180px;
+    font-size: 15px;
+    margin-right: 20px;
+    padding-right:10px;
+}
+
+.container2 {
+    
+    margin-top: 0px;
+    padding-top:20px;
+    padding:20px;
+    width: 960px;
+	margin: auto;
+        height:100%;
+}
+.box {background:white;
+          width:100%;
+          padding-left:10px;
+          padding-top:5px;
+          margin-top:35px;
+          margin-bottom:17px;
+          padding-right:10px;
+          padding-bottom:20px;
+}
+
+
+.login ul {
+    list-style: none;
+}
+.login li {
+    float:left;
+    padding-left:5px;
+}
